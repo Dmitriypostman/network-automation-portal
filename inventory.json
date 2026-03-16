@@ -1,0 +1,52 @@
+{
+  "devices": [
+    {
+      "device_name": "NXOS1",
+      "hostname": "NXOS1",
+      "ip_address": "192.168.150.201",
+      "connection_method": "nxapi",
+      "platform": "cisco_nxos",
+      "credential_profile": "nxos_lab",
+      "trunk_interfaces": [
+        "Ethernet1/1",
+        "Ethernet1/2"
+      ]
+    },
+    {
+      "device_name": "NXOS2",
+      "hostname": "NXOS2",
+      "ip_address": "192.168.150.203",
+      "connection_method": "nxapi",
+      "platform": "cisco_nxos",
+      "credential_profile": "nxos_lab",
+      "trunk_interfaces": [
+        "Ethernet1/1",
+        "Ethernet1/3"
+      ]
+    },
+    {
+      "device_name": "Catalyst1",
+      "hostname": "Catalyst1",
+      "ip_address": "192.168.150.202",
+      "connection_method": "ssh",
+      "platform": "cisco_ios",
+      "credential_profile": "catalyst_lab",
+      "trunk_interfaces": [
+        "Ethernet0/1",
+        "Ethernet0/2"
+      ]
+    },
+    {
+      "device_name": "Catalyst2",
+      "hostname": "Catalyst2",
+      "ip_address": "192.168.150.204",
+      "connection_method": "ssh",
+      "platform": "cisco_ios",
+      "credential_profile": "catalyst_lab",
+      "trunk_interfaces": [
+        "Ethernet1/5",
+        "Ethernet1/6"
+      ]
+    }
+  ]
+}
