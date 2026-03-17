@@ -16,13 +16,16 @@ Components:
 - Inventory (JSON-based device source)
 - Service layer (business logic)
 
-Project Structure:
+## Project Structure
+
+```text
 project/
-├─ app.py                # API entry point
-├─ inventory.json       # Device inventory
-├─ drivers/             # Device communication
-├─ services/            # Business logic
-├─ templates/           # Web UI
+├─ app.py          # API entry point
+├─ inventory.json  # Device inventory
+├─ drivers/        # Device communication
+├─ services/       # Business logic
+├─ templates/      # Web UI
+```
 
 How to Run:
 git clone https://github.com/Dmitriypostman/network-automation-portal
