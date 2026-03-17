@@ -30,7 +30,7 @@ network-automation-portal/
 How to Run:
 - git clone https://github.com/Dmitriypostman/network-automation-portal
 - cd network-automation-portal
-- python -m venv .venv
+- python3 -m venv .venv
 - source .venv/bin/activate
 - pip install -r requirements.txt
 - cp .env.example .env
