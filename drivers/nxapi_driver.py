@@ -2,7 +2,7 @@ import requests
 
 
 def send_nxapi_commands(device: dict, commands: list[str], username: str, password: str) -> dict:
-    url = f"http://{device['ip_address']}/ins"
+    url = f"https://{device['ip_address']}/ins"
 
     payload = {
         "ins_api": {
@@ -19,6 +19,7 @@ def send_nxapi_commands(device: dict, commands: list[str], username: str, passwo
         url,
         json=payload,
         auth=(username, password),
+        verify=False,
         headers={"content-type": "application/json"},
         timeout=15
     )
