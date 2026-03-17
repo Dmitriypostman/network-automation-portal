@@ -28,15 +28,15 @@ project/
 ```
 
 How to Run:
-git clone https://github.com/Dmitriypostman/network-automation-portal
-cd nexus_restapi_ssh
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-# fill credentials
-Update the inventory.json file
-uvicorn app:app --reload
+- git clone https://github.com/Dmitriypostman/network-automation-portal
+- cd nexus_restapi_ssh
+- python -m venv .venv
+- source .venv/bin/activate
+- pip install -r requirements.txt
+- cp .env.example .env
+- fill credentials:
+- Update the inventory.json file
+- uvicorn app:app --reload
 
 What I learned:
 - Difference between NX-API and SSH automation
