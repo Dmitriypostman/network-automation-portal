@@ -19,7 +19,7 @@ Components:
 ## Project Structure
 
 ```text
-project/
+network-automation-portal/
 ├─ app.py          # API entry point
 ├─ inventory.json  # Device inventory
 ├─ drivers/        # Device communication
